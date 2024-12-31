@@ -70,7 +70,7 @@ function App() {
                         viewport={{once: true, amount: 0.5}}
                         variants={fadeInVariant}
                     >
-                    <img src={`images/portfolio/${project.image}`} alt={project.name} className='w-[400px] object-cover' onClick={() => handleClick(project.id)}/>
+                    <img src={`${project.image}`} alt={project.name} className='w-[400px] object-cover' onClick={() => handleClick(project.id)}/>
                     </motion.div>
                 ))}
             </div>
