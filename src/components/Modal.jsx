@@ -16,7 +16,7 @@ const Modal = ( { image, setIsClicked} ) => {
         </div>
         <div className="scroll-img h-full">
             <div className="img-wrapper w-full h-full overflow-hidden">
-                <img src={`images/${image.image}`} alt="" className='w-full h-full object-contain'/>
+                <img src={image.image} alt="" className='w-full h-full object-contain'/>
             </div>
         </div>
     </div>
