@@ -55,7 +55,7 @@ function App() {
         </div>
 
         {/* SECTION 2 */}
-        <div id="s2" className='px-6 py-[5%] md:mt-0'>
+        <div id="s2" className='px-6 py-[8rem] md:mt-0'>
             <div className="title mb-6 space-x-2">
                 <span className='px-4 py-1 border border-cblue rounded-full'>walter&#39;s</span>
                 <span className='px-4 py-1 bg-cblue text-cwhite rounded-full'>works</span>
