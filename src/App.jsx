@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="wrapper w-screen bg-cwhite text-cblue cscrollbar">
         {/* SECTION 1 */}
-        <div id="s1" className="wrapper grid grid-cols-3 w-full h-screen">
+        <div id="s1" className="wrapper grid grid-cols-3 w-full h-screen mb-[10rem] md:mb-0">
             <div className="w-full py-4 px-6 flex flex-col justify-between col-span-3 md:col-span-1">
                 <div className='font-font1 text-3xl md:text-5xl flex flex-col leading-6'><span>walter</span><span>gagate</span></div>
                 <p className='leading-4 md:leading-6 text-sm md:text-xl pr-8 mt-4'>Freelance graphic designer with a passion for creating visually compelling designs that communicate ideas and captivate audiences.</p>
@@ -55,7 +55,7 @@ function App() {
         </div>
 
         {/* SECTION 2 */}
-        <div id="s2" className='px-6 py-[5%] mt-40 md:mt-0'>
+        <div id="s2" className='px-6 py-[5%] md:mt-0'>
             <div className="title mb-6 space-x-2">
                 <span className='px-4 py-1 border border-cblue rounded-full'>walter&#39;s</span>
                 <span className='px-4 py-1 bg-cblue text-cwhite rounded-full'>works</span>
